@@ -16,7 +16,7 @@ module.exports = {
         }
     },
     addColor: (color) => {
-        colors.push(color)
+        colors.push(color.toLowerCase())
         return colors
     }
 }

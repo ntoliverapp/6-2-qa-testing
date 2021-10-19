@@ -11,5 +11,5 @@ it('Should return user object or a failed status', () => {
 })
 
 it('Should add new color and return list of unique colors', ()=> {
-    expect(addColor('pink')).toContain('pink')
+    expect(addColor('Pink')).toContain('pink')
 })
